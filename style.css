@@ -25,7 +25,7 @@ body {
     font-size: 24px;
     letter-spacing: 4px;
 
-    /* overflow: hidden; */
+    overflow: hidden;
     transition: .2s;
 }
 
@@ -94,6 +94,14 @@ body {
 
 .button:hover .button__line--left {
     bottom: 100%;
+    transition: 1s;
+    transition-delay: .25s;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    background-color: #2196f3;
+    color: #333;
     transition: 1s;
     transition-delay: .25s;
 }
