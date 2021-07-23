@@ -1,3 +1,23 @@
 body {
-    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #333;
+    height: 100vh;
+
+    font-family: Consolas;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    color: #2196f3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 4px;
 }
